@@ -20,8 +20,6 @@
 
 #include <memory>
 #include <rapids_triton/model/shared_state.hpp>
-#include <rapids_triton/triton/logging.hpp>
-#include <vector>
 
 namespace triton {
 namespace backend {
