@@ -48,7 +48,8 @@ struct RapidsModel : rapids::Model<RapidsSharedState> {
   std::optional<rapids::MemoryType> preferred_mem_type(rapids::Batch& batch)
   const {
   }
-  cudaStream_t get_stream() {} */
+  cudaStream_t get_stream() const {} */
+
 };
 
 }  // namespace NAMESPACE
